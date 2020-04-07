@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "loading": "/pages/template/loading",
+    "tip": "/pages/template/tip"
+  }
+}

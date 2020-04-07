@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/postdetails/postdetails",
+    "pages/outline/outline",
+    "pages/project_details/project_details",
+    "pages/Seize/Seize",
+    "pages/Signed/Signed",
+    "pages/dating/dating",
+    "pages/Video_promotion/Video_promotion",
+    "pages/postils/postils",
+    "pages/online_platform/online_platform",
+    "pages/collaborate/collaborate",
+    "pages/setDetails/setDetails",
+    "pages/appointment/appointment",
+    "pages/HighPoint/HighPoint",
+    "pages/zs_inside/zs_inside",
+    "pages/Readings/Readings",
+    "pages/Societas/Societas",
+    "pages/minting_record/minting_record",
+    "pages/ulitem/ulitem",
+    "pages/pay/pay",
+    "pages/paid/paid",
+    "pages/my_order/my_order",
+    "pages/MPM/MPM",
+    "pages/manage_list/manage_list",
+    "pages/manage_list/generalize"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "中道共赢",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

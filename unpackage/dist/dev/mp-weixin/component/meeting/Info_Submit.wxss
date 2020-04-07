@@ -1,0 +1,60 @@
+
+.appoint {
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	/* position: relative; */
+}
+.backgr {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background-color: #000000;
+	opacity: .5;
+}
+.two_point {
+	box-sizing: border-box;
+	padding: 0 30rpx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.title_img {
+
+	width: 70%;
+	height: 12%;
+	margin-top: -6%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 0 0;
+	z-index: 3;
+}
+.conten {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+
+
+	width: 100%;
+	height: 80%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 0 0;
+}
+.show_ifro {}
+.show_ifro::before {
+	content: '\E657';
+	font-family: 'iconfont';
+	font-size: 80rpx;
+	color: #fff;
+}
+.hiden_text {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+

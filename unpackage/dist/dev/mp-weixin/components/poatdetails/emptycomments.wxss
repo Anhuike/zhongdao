@@ -1,0 +1,6 @@
+
+.pd_box.data-v-3ee2f587{padding: 0 24rpx;position: relative;z-index: 0;background: #FFFFFF;}
+.pd_box .pd_no_comment.data-v-3ee2f587{padding: 80rpx 0; text-align: center;}
+.pd_box .pd_no_comment .pd_no_comment_img.data-v-3ee2f587{width: 160rpx;height: 160rpx;}
+.pd_box .pd_no_comment .pd_no_comment_word.data-v-3ee2f587{font-size: 28rpx;color: #999999;margin-top: 48rpx;padding-bottom: 10px;}
+

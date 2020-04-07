@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "user-sare": "/components/share/share",
+    "tab-bar": "/components/tabBar",
+    "entry_block": "/component/wuli_article/entry_block",
+    "uni-notice-bar": "/components/uni-notice-bar/uni-notice-bar"
+  }
+}

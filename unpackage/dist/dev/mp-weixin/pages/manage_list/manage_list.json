@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tuguang": "/pages/manage_list/generalize"
+  }
+}

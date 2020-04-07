@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>
+            
+        </title>
+				<link rel="shortcut icon" href="<{if $site.logo_webtitle}><{$pager.img}>/<{$site.logo_webtitle}><{/if}>">
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+            })
+        </script>
+				<style type="text/css">
+					::-webkit-scrollbar{
+						width: 0;
+						height: 0;
+					}
+				</style>
+		<script type="text/javascript">
+			window.__CFG = {
+				"DOCUMENT_TITLE": "<{$CONFIG.site.title}>",
+				// "apiurl": "<{$CONFIG.site.siteurl}>"+'/api.php',
+				// "apilink": "<{$CONFIG.site.siteurl}>"+"/",
+				"apiurl": 'https://www.zhongdaogy.com/api.php',
+				"apilink": "https://www.zhongdaogy.com/",
+				"IN_APP_CLIENT": "<{$request.IN_APP_CLIENT}>",
+				"app_download": "<{json_encode($app_download)}>",
+				"WX_OPENID": "<{$wx_openid}>",
+				"WX_UNIONID": "<{$wx_unionid}>",
+			}
+			
+		</script>
+        <link rel="stylesheet" href="<%= BASE_URL %>static/index.css" />
+    </head>
+    <body>
+        <div id="app"></div>
+		<noscript>
+		    <strong></strong>
+		</noscript>
+       
+    </body>
+</html>

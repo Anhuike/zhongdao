@@ -1,0 +1,47 @@
+
+.fenxiang {}
+.fengxian::before {
+	content: '\E630';
+}
+.cente_img {
+	height: 160rpx;
+	width: 40%;
+	position: absolute;
+	top: 0;
+	background-color: rgb(65, 63, 63, .2);
+	z-index: 88;
+}
+.cont_right {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.content_text {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2; /*控制行数 */
+	overflow: hidden;
+}
+.underway {
+	background-color: #f92727;
+	color: #fff;
+}
+.Not_Done {
+	background-color: rgb(230, 230, 230, .5);
+	color: rgb(51, 51, 51);
+}
+.Playback {
+	background-color: #FFF;
+	box-sizing: border-box;
+	border: 1rpx solid #f92727;
+	color: #f92727;
+	border-radius: 50rpx;
+}
+

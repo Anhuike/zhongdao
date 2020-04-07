@@ -1,0 +1,1 @@
+<view class="loading _div"><view class="loading_bg _div"><image src="{{loading}}" class="_img"></image><view class="_p">加载中...</view></view></view>

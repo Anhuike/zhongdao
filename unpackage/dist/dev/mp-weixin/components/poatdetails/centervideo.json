@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "states": "/components/poatdetails/states",
+    "user-sare": "/components/share/share",
+    "empty-comments": "/components/poatdetails/emptycomments"
+  }
+}

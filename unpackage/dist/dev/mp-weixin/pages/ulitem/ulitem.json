@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "项目中心",
+  "usingComponents": {
+    "tuwen": "/component/wuli_article/tuwen"
+  }
+}

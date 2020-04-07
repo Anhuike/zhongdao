@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": false,
+  "disableScroll": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mescroll-item": "/pages/my_order/item_order",
+    "app-tabs": "/pages/my_order/order_tab"
+  }
+}

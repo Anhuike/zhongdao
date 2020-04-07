@@ -1,0 +1,362 @@
+/* icon */
+@font-face {
+  font-family: 'iconfont';  /* project id 1567922 */
+  src: url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.eot');
+  src: url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.svg#iconfont') format('svg');
+}
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-youxiatianchong:before {
+	content: "\E639";
+}
+.icon-right:before {
+	content: "\E61C";
+}
+.icon-sanjiaoleft:before {
+	content: "\E621";
+}
+.icon-shouqi:before {
+	content: "\E61F";
+}
+.icon-zhankai:before {
+	content: "\E625";
+}
+.icon-fl-renminbi:before {
+	content: "\E634";
+}
+.icon-dui:before {
+	content: "\E613";
+}
+.icon-cuowu:before {
+	content: "\E657";
+}
+.icon-fenxiang:before {
+	content: "\E620";
+}
+.icon-dui1:before {
+	content: "\E63F";
+}
+/* //////////////////////////////////////////////////// */
+._img {
+	padding: 0;
+	margin: 0;
+}
+/*每个页面公共css */
+.margin-top {
+	margin-top: 30rpx;
+}
+.margin-left {
+	margin-left: 30rpx;
+}
+.margin-bottom {
+	margin-bottom: 30rpx;
+}
+.margin-right {
+	margin-right: 30rpx;
+}
+.margin {
+	margin: 30rpx;
+}
+.padding {
+	padding: 30rpx;
+}
+.padding-bottom {
+	padding-bottom: 30rpx;
+}
+.padding-right {
+	padding-right: 30rpx;
+}
+.padding-top {
+	padding-top: 30rpx;
+}
+.padding-left {
+	padding-left: 30rpx;
+}
+.margin-top-20 {
+	margin-top: 20rpx;
+}
+.margin-left-20 {
+	margin-left: 20rpx;
+}
+.margin-bottom-20 {
+	margin-bottom: 20rpx;
+}
+.margin-right-20 {
+	margin-right: 20rpx;
+}
+.margin-20 {
+	margin: 20rpx;
+}
+.padding-20 {
+	padding: 20rpx;
+}
+.padding-bottom-20 {
+	padding-bottom: 20rpx;
+}
+.padding-right-20 {
+	padding-right: 20rpx;
+}
+.padding-top-20 {
+	padding-top: 20rpx;
+}
+.padding-left-20 {
+	padding-left: 20rpx;
+}
+.margin-top-10 {
+	margin-top: 10rpx;
+}
+.margin-left-10 {
+	margin-left: 10rpx;
+}
+.margin-bottom-10 {
+	margin-bottom: 10rpx;
+}
+.margin-right-10 {
+	margin-right: 10rpx;
+}
+.margin-10 {
+	margin: 10rpx;
+}
+.padding-10 {
+	padding: 10rpx;
+}
+.padding-bottom-10 {
+	padding-bottom: 10rpx;
+}
+.padding-right-10 {
+	padding-right: 10rpx;
+}
+.padding-top-10 {
+	padding-top: 10rpx;
+}
+.padding-left-10 {
+	padding-left: 10rpx;
+}
+.max_text {
+	font-size: 40rpx;
+
+}
+.middle_text {
+	font-size: 36rpx;
+}
+.small_text {
+	font-size: 32rpx;
+}
+.tiny_text {
+	font-size: 28rpx;
+}
+.x_text {
+	font-size: 24rpx;
+
+}
+.text-center {
+	text-align: center;
+}
+.bold {
+	font-weight: bold;
+}
+.title_color {
+	color: rgb(252, 54, 43);
+}
+.two_color {
+	color: rgb(51, 51, 51);
+	/* #333 */
+}
+.vice-color {
+	color: rgb(102, 102, 102);
+	/* #666666 */
+}
+.golden_color {
+	color: rgb(223, 30u1, 12);
+}
+.x_color {
+	color: rgb(153, 153, 153);
+	/* #999; */
+}
+.white {
+	background: #fff;
+}
+.bg_fa {
+	background: #fafafa;
+}
+.bg_yellow {
+	background: rgb(248, 188, 0);
+}
+.bg_red {
+	background: rgb(252, 54, 43);
+}
+.bg_green {
+	background: rgb(22, 209, 12);
+}
+.bg_blue {
+	background: rgb(24, 84, 255);
+}
+.bg_purple {
+	background: rgb(109, 38, 255);
+}
+.radius {
+	border-radius: 20px;
+}
+.radius-50 {
+	border-radius: 50px;
+}
+.solid {
+	border: 1px solid #B6B6B6;
+}
+.flex_between {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.flex_center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.end_flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end
+}
+.wrpo_center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	/* justify-content: center; */
+	/* flex-direction: column; */
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.align_between {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.text_hidden{
+	white-space:nowrap;/*规定段落中的文本不进行换行*/
+	overflow:hidden;/*内容会被修剪，并且其余内容是不可见的。*/
+	text-overflow:ellipsis;/*显示省略号来代表被修剪的文本*/
+}
+.more_hideen{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+
+.title_s {
+			height: 44px;
+			width: 100vw;
+			position: fixed;
+			top: 0;
+			z-index: 99999;
+			color:  #fff;
+			padding: 0px 10px 3px;
+	
+			box-sizing: border-box;
+}
+.status_bar {
+			/* height: var(--status-bar-height); */
+			width: 100%;
+			height: 25px;
+}
+.middle_text {
+			font-size: 16px;
+			font-weight: 600;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			        align-items: center;
+}
+.back-left {
+			width: 20px;
+			height: 20px;
+			font-size: 20px;
+			font-family: 'iconfont';
+			text-decoration: none;
+			text-align: center;
+}
+.back-left::before {
+			content: '\E611';
+			font-family: 'iconfont';
+			text-align: center;
+}
+.more-right {
+			width: 20px;
+			height: 20px;
+			font-size: 20px;
+			font-family: 'iconfont';
+			text-decoration: none;
+			text-align: center;
+}
+	
+		/* .more-right::before {
+		content: '\e606';
+		font-family: 'iconfont';
+		text-align: center;
+	}
+ */
+.icon-Menu {
+		width: 40rpx;
+		height: 40px;
+		font-size: 18px;
+		font-family: 'iconfont';
+		/* text-decoration: none;
+		text-align: center; */
+}
+.icon-Menu::before {
+
+		content: '\E60C';
+		font-family: 'iconfont';
+		text-align: center;
+}
+.rltive {
+		position: relative;
+		height: 50rpx;
+		-webkit-box-align: end;
+		-webkit-align-items: flex-end;
+		        align-items: flex-end;
+}
+.active_st {
+		height: 10rpx;
+		width: 100%;
+		background: #red;
+		position: absolute;
+		bottom: -20rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "user-sare": "/components/share/share"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-section": "/components/uni-section/uni-section",
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot",
+    "meeting": "/component/meeting/meeting",
+    "count_down": "/components/count_down",
+    "info_-submit": "/component/meeting/Info_Submit"
+  }
+}

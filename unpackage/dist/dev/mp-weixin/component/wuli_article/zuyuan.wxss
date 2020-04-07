@@ -1,0 +1,10 @@
+
+.cente_img {
+	height: 160rpx;
+	width: 40%;
+	position: absolute;
+	top: 0;
+	background-color: rgb(65, 63, 63, .2);
+	z-index: 88;
+}
+

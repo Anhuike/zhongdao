@@ -1,0 +1,9 @@
+
+.text_hidden {
+	/* height: 5em; */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5;
+	overflow: hidden;
+}
+

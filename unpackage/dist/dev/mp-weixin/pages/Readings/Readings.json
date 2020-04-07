@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "ziyuan": "/component/wuli_article/zuyuan"
+  }
+}

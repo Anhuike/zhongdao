@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tuwen": "/component/wuli_article/tuwen"
+  }
+}

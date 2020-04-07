@@ -1,0 +1,1 @@
+<block wx:if="{{isshow}}"><view class="tip_wrap _div"><view class="tipsMask _div">{{''+tips+''}}</view></view></block>

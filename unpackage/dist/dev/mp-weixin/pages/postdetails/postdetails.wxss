@@ -1,0 +1,11 @@
+
+.shadow_box.data-v-744a3c9c{position: fixed;top: 0;left: 0;bottom: 0;right: 0;z-index: 3;background: rgba(0,0,0,0.4);}
+.suc_pop.data-v-744a3c9c{width: 642rpx;height: 634rpx;background: #FFFFFF;border-radius: 16rpx;position: fixed;top: 50%;left: 50%;margin-top: -317rpx;margin-left: -321rpx;z-index: 5;text-align: center;}
+.suc_pop .close_pop.data-v-744a3c9c{position: absolute;width: 88rpx;height: 88rpx;top: 0;right: 0;border-top-right-radius: 16rpx;}
+.suc_pop .ti.data-v-744a3c9c{font-size: 32rpx;color: #333333;margin-top: 80rpx;}
+.suc_pop .suc_pop_img.data-v-744a3c9c{display: inline-block;width: 280rpx;height: 165rpx;margin-top: 36rpx;}
+.suc_pop .suc_notice.data-v-744a3c9c{padding: 37rpx 104rpx 24rpx;font-size: 28rpx;color: #666666;}
+.suc_pop .suc_btn.data-v-744a3c9c{display: inline-block;font-size: 32rpx;color: #FFFFFF;background: #FD7F00;border-radius: 8rpx;width: 546rpx;height: 88rpx;line-height: 88rpx;}
+.load_ze_zao.data-v-744a3c9c{position: fixed;top: 0;left: 0;right: 0;bottom: 0;background: #FFFFFF;z-index: 100;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-align: center;-webkit-align-items: center;align-items: center;-webkit-justify-content: space-around;justify-content: space-around;}
+.load_ze_icon.data-v-744a3c9c{width: 640rpx;height: 480rpx;}
+

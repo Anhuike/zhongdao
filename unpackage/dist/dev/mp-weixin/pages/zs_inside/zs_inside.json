@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "ziyuan": "/component/wuli_article/zuyuan",
+    "user-sare": "/components/share/share",
+    "interaction": "/component/post/interaction",
+    "tuwen": "/component/wuli_article/tuwen"
+  }
+}

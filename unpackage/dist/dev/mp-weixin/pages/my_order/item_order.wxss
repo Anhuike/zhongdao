@@ -1,0 +1,12 @@
+
+.btns_ {
+	/* border-radius: 5px; */
+	border: 1px solid #fff;
+
+	height: 36px;
+	width: 86px;
+	/* background: #f92727; */
+	/* margin-left:25px ; */
+}
+
+

@@ -1,0 +1,1 @@
+<view class="data-v-c516fba8"><view data-ref="states" class="{{['data-v-c516fba8 vue-ref',Fix?'states':'statesAb']}}" style="{{'top:'+(top)+';'+('margin-top:'+(marT)+';')}}"><view class="states1 data-v-c516fba8">{{label}}</view><block wx:if="{{reason!=''}}"><view class="states2 data-v-c516fba8">{{reason}}</view></block></view></view>

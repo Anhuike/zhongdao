@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "the_article": "/component/post/The_article",
+    "activity": "/component/post/activity",
+    "interaction": "/component/post/interaction",
+    "ziyuan": "/component/wuli_article/zuyuan",
+    "meeting": "/component/meeting/meeting",
+    "info_-submit": "/component/meeting/Info_Submit"
+  }
+}

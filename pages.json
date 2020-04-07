@@ -1,0 +1,320 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				// "navigationBarTitleText": "首页",
+				// "navigationStyle": "custom",
+				// "disableScroll": true,
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#F5F5F5",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		// 详情页
+		{
+			"path": "pages/postdetails/postdetails",
+			"style": {
+				"navigationBarTitleText": "文章",
+				//  "enablePullDownRefresh":  false,
+				"backgroundColor": "#F92727",
+				//  "navigationStyle":  "custom",
+				"h5": {
+					"titleNView": false
+				}
+
+			}
+		},
+
+		{
+			"path": "pages/outline/outline",
+			"style": {
+
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		}, {
+			"path": "pages/project_details/project_details",
+			"style": {
+				// "navigationBarTitleText": "重点项目详情页",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Seize/Seize",
+			"style": {
+				// "navigationBarTitleText": "项目选择",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Signed/Signed",
+			"style": {
+				// "navigationBarTitleText": "确认订单",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/dating/dating",
+			"style": {
+				// "navigationBarTitleText": "项目中心",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Video_promotion/Video_promotion",
+			"style": {
+				// "navigationBarTitleText": "视频",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+
+			"path": "pages/postils/postils",
+			"style": {
+				// "navigationBarTitleText": "政商学院等5大模块", 
+				// "navigationBarBackgroundColor": "#ffffff"
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#ffffff"
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/online_platform/online_platform",
+			"style": {
+				// "navigationBarTitleText": "网络线上平台",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		}, {
+			"path": "pages/collaborate/collaborate",
+			"style": {
+				// "navigationBarTitleText": "合作",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/setDetails/setDetails",
+			"style": {
+				"navigationBarTitleText": "去互动",
+				// "enablePullDownRefresh": false,
+				"backgroundColor": "#F92727",
+				// "navigationStyle": "custom",
+				"h5": {
+					"titleNView": false
+				}
+
+			}
+		}, {
+			"path": "pages/appointment/appointment",
+			"style": { // "navigationBarTitleText": "预约",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/HighPoint/HighPoint",
+			"style": {
+				// "navigationBarTitleText": "高端资源",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/zs_inside/zs_inside",
+			"style": {
+				// "navigationBarTitleText": "政商学院详情",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Readings/Readings",
+			"style": {
+				// "navigationBarTitleText": "解读",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/Societas/Societas",
+			"style": {
+				// "navigationBarTitleText": "解读列表",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/minting_record/minting_record",
+			"style": {
+				// "navigationBarTitleText": "//会议记录",
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/ulitem/ulitem",
+			"style": {
+				"navigationBarTitleText": "项目中心"
+				// "enablePullDownRefresh": false,
+				// "backgroundColor": "#",
+				// "navigationStyle": "custom",
+				// "app-plus": {
+				// 	"titleNView": false
+				// }
+			}
+		}, {
+			"path": "pages/pay/pay",
+			"style": {
+				// "navigationStyle": "custom",
+				// "app-plus": {
+				// 	// 支付完成
+				// 	"titleNView": false
+				// }
+			
+			}
+		}, {
+			"path": "pages/paid/paid",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 支付完成
+					"titleNView": false
+				}
+
+			}
+		}, {
+			"path": "pages/my_order/my_order",
+			"style": {
+				// 订单
+				"enablePullDownRefresh" : false, // 删除此项: 不开启系统自带的下拉刷新, 默认false
+				"disableScroll": true, // 禁止原生页面滚动, 解决Android小程序下拉卡顿的问题
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 支付完成
+					"titleNView": false,
+					"bounce" : "none" // 取消APP端iOS回弹,避免与下拉刷新冲突,以及bounce边缘1秒卡顿
+				}
+			}
+		}
+		
+	    ,{
+            "path" : "pages/MPM/MPM",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 项目管理
+					"titleNView": false
+				}
+			}
+        }
+   
+        ,{
+            "path" : "pages/manage_list/manage_list",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					// 项目管理列表
+					"titleNView": false
+				}
+			}
+        },
+		// {
+		//     "path" : "pages/manage_list/generalize",
+		//     "style" : {
+		// 		"navigationStyle": "custom",
+		// 		"app-plus": {
+		// 			// 项目管理列表
+		// 			"titleNView": false
+		// 		}
+		// 	}
+		// },
+		
+        {
+            "path" : "pages/promote/promote",
+           "style" : {
+           	"navigationStyle": "custom",
+           	"app-plus": {
+           		// 项目管理列表
+           		"titleNView": false
+           	}
+           }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "中道共赢",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

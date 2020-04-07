@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "the_article": "/component/post/The_article",
+    "interaction": "/component/post/interaction",
+    "wuli": "/component/wuli_article/wuli"
+  }
+}

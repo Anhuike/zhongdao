@@ -1,0 +1,61 @@
+
+.sty_img {
+		height: 10rpx;
+		width: 2em;
+		display: block;
+		margin: 0 auto;
+}
+.app-tabs{
+	position: relative;
+	height: 80rpx;
+	line-height: 60rpx;
+	font-size: 24rpx;
+	background-color: #fff;
+	/* border-bottom: 1rpx solid #eee; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	color: #A2A2A2;
+}
+.app-tabs .tabs-item{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	text-align: center;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.app-tabs .tabs-item .tab-item{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.app-tabs .tabs-item .active{
+	color: #4B4B4B;
+}
+.app-tabs .tabs-line{
+	position: absolute;
+	bottom: 2px;
+	width: 2em;
+	/* height: 10; */
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	border-radius: 4rpx;
+	-webkit-transition: left .3s;
+	transition: left .3s;
+	/* background: red; */
+}
+
+/*悬浮*/
+.app-tabs.tabs-fixed{
+	z-index: 9999;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	width: 100%;
+}
+
