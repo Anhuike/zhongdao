@@ -302,6 +302,16 @@
            	}
            }
         }
+        ,{
+            "path" : "pages/resources/resources",
+            "style" : {
+            	"navigationStyle": "custom",
+            	"app-plus": {
+            		// 新高端资源
+            		"titleNView": false
+            	}
+            }
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

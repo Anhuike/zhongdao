@@ -1,27 +1,40 @@
 <script>
+	import Vue from 'vue'
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
+			uni.getSystemInfo({
+				success: function(e) {
+					// #ifndef MP
+					Vue.prototype.StatusBar = e.statusBarHeight;
+					if (e.platform == 'android') {
+						Vue.prototype.CustomBar = e.statusBarHeight + 50;
+					} else {
+						Vue.prototype.CustomBar = e.statusBarHeight + 45;
+					};
+					// #endif
+
+					// #ifdef MP-WEIXIN
+					Vue.prototype.StatusBar = e.statusBarHeight;
+					let custom = wx.getMenuButtonBoundingClientRect();
+					Vue.prototype.Custom = custom;
+					Vue.prototype.CustomBar = custom.bottom + custom.top - e.statusBarHeight;
+					// #endif		
+
+					// #ifdef MP-ALIPAY
+					Vue.prototype.StatusBar = e.statusBarHeight;
+					Vue.prototype.CustomBar = e.statusBarHeight + e.titleBarHeight;
+					// #endif
+				}
+			})
 		},
 		onShow: function() {
-
-			uni.getSystemInfo({
-				success: function(res) {
-					console.log(res.model);
-					console.log(res.pixelRatio);
-					console.log(res.windowWidth);
-					console.log(res.windowHeight);
-					console.log(res.language);
-					console.log(res.version); //h5不支持
-					console.log(res.platform);
-					console.log(res.statusBarHeight)
-				}
-			});
 			console.log('App Show')
 		},
 		onHide: function() {
 			console.log('App Hide')
 		}
+
 	}
 </script>
 
@@ -34,16 +47,15 @@
 
 	/* icon */
 	/* icon */
-	@font-face {
-		font-family: 'iconfont';
-		/* project id 1567922 */
-		src: url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.eot');
-		src: url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.eot?#iefix') format('embedded-opentype'),
-			url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.woff2') format('woff2'),
-			url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.woff') format('woff'),
-			url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.ttf') format('truetype'),
-			url('//at.alicdn.com/t/font_1567922_ua6z46wrd8.svg#iconfont') format('svg');
-	}
+@font-face {
+  font-family: 'iconfont';  /* project id 1567922 */
+  src: url('//at.alicdn.com/t/font_1567922_jy8udlsqbv.eot');
+  src: url('//at.alicdn.com/t/font_1567922_jy8udlsqbv.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1567922_jy8udlsqbv.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1567922_jy8udlsqbv.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1567922_jy8udlsqbv.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1567922_jy8udlsqbv.svg#iconfont') format('svg');
+}
 
 	.iconfont {
 		font-family: "iconfont" !important;
@@ -339,7 +351,9 @@
 		border: 1px solid #B6B6B6;
 	}
 
-
+.flex{
+	display: flex;
+}
 	.flex_between {
 		display: flex;
 		justify-content: space-between;

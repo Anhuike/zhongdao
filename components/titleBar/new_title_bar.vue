@@ -28,8 +28,8 @@
 		name: 'sundeheng-custom',
 		computed: {
 			style() {
-				var StatusBar = this.StatusBar;
-				var CustomBar = this.CustomBar;
+				var StatusBar= this.StatusBar;
+				var CustomBar= this.CustomBar;
 				var bgImage = this.bgImage;
 				var style = `height:${CustomBar}px;padding-top:${StatusBar}px;`;
 				if (this.bgImage) {
@@ -58,7 +58,7 @@
 					delta: 1
 				});
 			},
-			rightcli() {
+			rightcli(){
 				this.$emit('rightcli')
 			}
 		}
@@ -67,7 +67,6 @@
 
 <style>
 	@import "main.css";
-
 	@font-face {
 		font-family: "cuIcon";
 		src: url('//at.alicdn.com/t/font_533566_yfq2d9wdij.eot?t=1545239985831');
@@ -80,180 +79,13 @@
 			url('//at.alicdn.com/t/font_533566_yfq2d9wdij.svg?t=1545239985831#cuIconfont') format('svg');
 		/* iOS 4.1- */
 	}
-
 	[class*="cuIcon-"] {
 		font-family: "cuIcon";
 		font-size: inherit;
 		font-style: normal;
 	}
-
+	
 	.cuIcon-back:before {
 		content: "\e679";
-	}
-
-	/*  */
-	.cu-custom {
-		display: block;
-		position: relative;
-	}
-
-
-.cu-bar {
-	display: flex;
-	position: relative;
-	align-items: center;
-	min-height: 100upx;
-	justify-content: space-between;
-}
-
-.cu-bar .action {
-	display: flex;
-	align-items: center;
-	height: 100%;
-	justify-content: center;
-	max-width: 100%;
-}
-
-	.cu-bar.fixed,
-	.nav.fixed {
-		position: fixed;
-		width: 100%;
-		top: 0;
-		z-index: 1024;
-		box-shadow: 0 1upx 6upx rgba(0, 0, 0, 0.1);
-	}
-
-	/* #ifdef MP-ALIPAY */
-	.cu-custom .cu-bar .action .cuIcon-back {
-		opacity: 0;
-	}
-
-	/* #endif */
-.cu-bar .action {
-	display: flex;
-	align-items: center;
-	height: 100%;
-	justify-content: center;
-	max-width: 100%;
-}
-	/* #ifdef MP-ALIPAY */
-	.cu-custom .cu-bar .action .cuIcon-back {
-		opacity: 0;
-	}
-
-	/* #endif */
-.cu-bar .action:first-child {
-	margin-left: 30upx;
-	font-size: 30upx;
-}
-.cu-bar .action:first-child {
-	margin-left: 30upx;
-	font-size: 30upx;
-}
-	/* 
-.cu-custom .cu-bar .content {
-	width: calc(100% - 440upx);
-} */
-	.text-white,
-	.line-white,
-	.lines-white {
-		color: #ffffff;
-	}
-
-	.bg-img {
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-	view,
-	scroll-view,
-	swiper,
-	button,
-	input,
-	textarea,
-	label,
-	navigator,
-	image {
-		box-sizing: border-box;
-	}
-	/* ==================
-	          图片
-	 ==================== */
-	
-	image {
-		max-width: 100%;
-		display: inline-block;
-		position: relative;
-		z-index: 0;
-	}
-	
-	image.loading::before {
-		content: "";
-		background-color: #f5f5f5;
-		display: block;
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		z-index: -2;
-	}
-	
-	image.loading::after {
-		content: "\e7f1";
-		font-family: "cuIcon";
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 32upx;
-		height: 32upx;
-		line-height: 32upx;
-		right: 0;
-		bottom: 0;
-		z-index: -1;
-		font-size: 32upx;
-		margin: auto;
-		color: #ccc;
-		-webkit-animation: cuIcon-spin 2s infinite linear;
-		animation: cuIcon-spin 2s infinite linear;
-		display: block;
-	}
-	.cu-bar .content {
-		position: absolute;
-		text-align: center;
-		width: calc(100% - 340upx);
-		left: 0;
-		right: 0;
-		bottom: 0;
-		top: 0;
-		margin: auto;
-		height: 60upx;
-		font-size: 32upx;
-		line-height: 60upx;
-		cursor: none;
-		pointer-events: none;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		overflow: hidden;
-	}
-	.cu-custom .cu-bar {
-		min-height: 0px;
-		/* #ifdef MP-WEIXIN */
-		padding-right: 220upx;
-		/* #endif */
-		/* #ifdef MP-ALIPAY */
-		padding-right: 150upx;
-		/* #endif */
-		box-shadow: 0upx 0upx 0upx;
-		z-index: 9999;
-	}
-	.cu-bar .action:first-child>text[class*="cuIcon-"] {
-		margin-left: -0.3em;
-		margin-right: 0.3em;
-	}
-	.cu-bar .action>text[class*="cuIcon-"]+text[class*="cuIcon-"] {
-		margin-left: 0.5em;
-	}
-	.cu-bar .action>text[class*="cuIcon-"],
-	.cu-bar .action>view[class*="cuIcon-"] {
-		font-size: 36upx;
 	}
 </style>
